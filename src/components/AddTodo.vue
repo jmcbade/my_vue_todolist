@@ -20,8 +20,11 @@
 			addTodo() {
 				const newTodo = {
 					id: uuid.v8(),
-					title: this.title
+					title: this.title,
+					completed: false
 				}
+				// Send up to parent
+				this.$emit('add-todo', newTodo);
 			}
 		}
 	}
