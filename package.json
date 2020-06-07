@@ -38,5 +38,18 @@
     "> 1%",
     "last 2 versions",
     "not dead"
-  ]
+  ],
+  "description": "## Project setup ``` yarn install ```",
+  "main": "babel.config.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jmcbade/my_vue_todolist.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jmcbade/my_vue_todolist/issues"
+  },
+  "homepage": "https://github.com/jmcbade/my_vue_todolist#readme"
 }
