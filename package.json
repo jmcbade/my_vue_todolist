@@ -9,7 +9,6 @@
   },
   "dependencies": {
     "core-js": "^3.6.5",
-    "uuid": "^8.1.0",
     "vue": "^2.6.11"
   },
   "devDependencies": {
@@ -39,18 +38,5 @@
     "> 1%",
     "last 2 versions",
     "not dead"
-  ],
-  "description": "## Project setup ``` yarn install ```",
-  "main": "babel.config.js",
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/jmcbade/my_vue_todolist.git"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/jmcbade/my_vue_todolist/issues"
-  },
-  "homepage": "https://github.com/jmcbade/my_vue_todolist#readme"
+  ]
 }
