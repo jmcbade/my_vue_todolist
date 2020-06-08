@@ -40,7 +40,7 @@
 			}
 		},
       methods: {
-	        deleteTodo(id) {
+					deleteTodo(id) {
               this.todos = this.todos.filter(todo => todo.id !== id);
           },
           addTodo: function (newTodo) {
