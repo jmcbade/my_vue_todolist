@@ -1,6 +1,6 @@
 <template>
 	<div>
-		<form @submit="addTodo">
+		<form @submit.prevent="addTodo">
 			<input type="text" v-model="title" name="title" placeholder="Add Todo...">
 			<input type="submit" value="Submit" class="btn">
 		</form>
@@ -8,7 +8,7 @@
 </template>
 
 <script>
-	import uuid from 'uuid';
+	// import uuid from 'uuid';
 	export default {
 		name: "AddTodo",
 		data() {
@@ -19,12 +19,15 @@
 		methods: {
 			addTodo() {
 				const newTodo = {
-					id: uuid.v8(),
+					// No longer used
+					// id: uuid.v4(),
 					title: this.title,
 					completed: false
 				}
 				// Send up to parent
 				this.$emit('add-todo', newTodo);
+
+				this.title = '';
 			}
 		}
 	}
